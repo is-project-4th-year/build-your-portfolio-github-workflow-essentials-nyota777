@@ -100,5 +100,6 @@ This screenshot shows a milestone I created to track progress on the portfolio s
 - Screenshot of a pull request that’s either open or merged and linked to a related issue.
 
 ### E. Merge Conflict Resolution
+![image](https://github.com/user-attachments/assets/a0c43e2d-19b1-4d65-ad77-55fd95e9bca9)
 
 - This pull request shows how I merged the feature branch into the main branch Issue No 5. It is also linked to the related issue for the “Project section” of my project.
