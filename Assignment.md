@@ -90,8 +90,9 @@ This screenshot shows a milestone I created to track progress on the portfolio s
 - Here is my GitHub project board. I used columns like “To Do,” “In Progress,” and “Done” to visually manage the status of each task in the portfolio project.
 
 ### C. Branching
+![branches](https://github.com/user-attachments/assets/daf22d9a-f31c-4f11-90f9-3934ce5aea52)
 
-- Screenshot showing your branch list with meaningful naming.
+- This screenshot displays the list of branches I created, including 2-add-profile-section-for-arthur-nyota. I used descriptive branch names to keep my Git workflow organized..
 
 ### D. Pull Requests
 ![pull request 2](https://github.com/user-attachments/assets/b860f38e-08cb-4a79-a348-07fee80feba8)
