@@ -94,9 +94,10 @@ This screenshot shows a milestone I created to track progress on the portfolio s
 - Screenshot showing your branch list with meaningful naming.
 
 ### D. Pull Requests
+![pull request 2](https://github.com/user-attachments/assets/b860f38e-08cb-4a79-a348-07fee80feba8)
 
 - Screenshot of a pull request that’s either open or merged and linked to a related issue.
 
 ### E. Merge Conflict Resolution
 
-- Screenshot of a resolved merge conflict (in a pull request, commit history, or your local terminal/GitHub Desktop).
+- This pull request shows how I merged the feature branch into the main branch Issue No 5. It is also linked to the related issue for the “Project section” of my project.
