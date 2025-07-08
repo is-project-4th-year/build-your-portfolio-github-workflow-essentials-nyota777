@@ -1,100 +1,105 @@
-# 🌐 Personal Portfolio Project Assignment
+# Personal Portfolio Documentation
 
-Welcome to your **Personal Portfolio Project**! This assignment is designed to help you practice core GitHub and project management skills, including milestones, issues, project boards, branching, commit conventions, pull requests, and resolving merge conflicts.
+## 1. Student Details
 
----
+- **Full Name**: Arthur Ng'ang'a Nyota
+- **Admission Number**: 150830
+- **GitHub Username**: nyota777
+- **Email**: arthur.nyota@strathmore.edu
 
-## 📌 Project Management Guidelines
+## 2. Deployed Portfolio Link
 
-### ✅ Milestones
-Define major phases or deliverables of your portfolio (e.g., Landing Page, Team Profiles, Admin Panel).
+- **GitHub Pages URL**:  
+  _([Personnal Portfolio link]https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-nyota777/))_
 
-### ✅ Issues
-Break each milestone into manageable tasks. Link these issues to their related milestone for better tracking.
+## 3. Learnings from the Git Crash Program
 
-### ✅ Project Board
-Create a GitHub project board with columns like:
-- `To Do`
-- `In Progress`
-- `Done`
-
-Assign tasks and pull requests to the appropriate columns.
+Write about **4 things** you expected to learn during the Git crash course (yes, we all came in with some big hopes 😅).
+For each one, mention:
 
 ---
 
-## 🔧 Git Workflow
+**1. Concept: Git Commands (Add, Commit, Push)**
 
-### 🔀 Branching
-Use feature branches for each issue. Adopt a consistent naming format such as:
+- **Expectation**: I assumed I’d just memorize a few basic commands and be done with it—maybe use them once in a while when uploading a project.
 
-```
-feature/<issue-number>-short-description
-```
+- **Reality**: Turns out, Git commands are *core tools* I need constantly. Even a small mistake like forgetting to stage before committing can mess things up.
 
-### 💬 Commits
-Use structured, meaningful commit messages:
-
-```
-<type>(<optional scope>): <short description>
-
-<body>
-
-<footer>
-```
-
-**Commit Types: `(use at least 6 of these)`**
-- `feat`: New feature
-- `fix`: Bug fix
-- `docs`: Documentation changes
-- `style`: Formatting, white space, etc.
-- `refactor`: Code restructure (no feature or bug)
-- `perf`: Performance improvement
-- `test`: Test-related updates
-- `chore`: Non-code updates (e.g., config)
-- `build`: Build system or dependency changes
-- `ci`: Continuous integration changes
-
-**Example:**
-```
-feat(portfolio): add responsive navigation bar
-
-Added a mobile-first responsive nav using Flexbox.
-
-Closes #45
-```
+- **Impact**: I got comfortable using `git add`, `git commit`, and `git push` daily while working on my profile site, which made tracking changes and syncing my code to GitHub super smooth.
 
 ---
 
-## 🔄 Pull Requests & Merge Conflicts
+**2. Concept: Merge Conflicts**
 
-- Open a PR for each feature branch.
-- Link the PR to its corresponding issue.
-- Request reviews before merging.
-- Document any merge conflict resolution in the PR or commit message.
+- **Expectation**: I thought Git would magically handle merges and I wouldn’t need to worry about conflicts.
+
+- **Reality**: I found out that merge conflicts happen when multiple people (or branches) change the same part of a file. Git needs *you* to decide which changes to keep.
+
+- **Impact**: I faced a real conflict while editing an HTML file and learned how to manually resolve it. Now, I’m more confident dealing with collaborative code without fear of breaking things.
 
 ---
 
-## 🚀 Deployment & Documentation
+**3. Concept: Git Rebase**
 
-- Keep the `main` branch always deployable.
-- Deploy using GitHub Pages (mandatory) and any suitable platform (optional).
-- Complete the `Assignment.md` file in this repository by addressing all listed requirements. This document will be used for evaluation.
+- **Expectation**: I had no clue what rebase was—just another scary Git word I thought only experts used.
+
+- **Reality**: I learned that `git rebase` helps keep a cleaner commit history by replaying my changes on top of another branch. It’s like “re-writing history” to make the timeline look smoother.
+
+- **Impact**: I used rebase to clean up a messy branch before merging it into the main branch of my portfolio project, which made the project history easier to understand.
+
 ---
 
-## 📥 Submission Checklist
+**4. Concept: Writing Clear Commit Messages**
 
-Before submitting your project, ensure the following:
+- **Expectation**: I thought commit messages could be random or something like “stuff” or “fix 1”.
 
-- [ ] Applied the relevant branch protection rules on the main branch
-- [ ] Defined milestones for key features
-- [ ] Created and linked issues to milestones
-- [ ] Organized a GitHub project board (To Do / In Progress / Done)
-- [ ] Used structured commit messages
-- [ ] Created separate feature branches for tasks
-- [ ] Opened and merged PRs with meaningful descriptions
-- [ ] Demonstrated conflict resolution (Simulate atleast one)
-- [ ] Deployed the portfolio online
-- [ ] Completed and updated the `Assignment.md` file which will be marked and graded
+- **Reality**: I learned that a good commit message helps others (and future me) understand what changed and why. It avoids confusion and improves collaboration.
 
+- **Impact**: I started writing clear, specific messages like `Add profile image section for Arthur` instead of vague ones. This made my contribution logs readable and professional.
 
+---
 
+**5. Concept: Repositories and Cloning**
+
+- **Expectation**: I thought "repo" just meant an online folder, and cloning was just downloading stuff.
+
+- **Reality**: A repository is a full Git project with tracked history. Cloning gives you a working copy *with Git tracking intact*, not just a zip file.
+
+- **Impact**: I was able to clone our team’s shared repo and push my contributions without messing up the main structure. Helped me collaborate better during the team profile project.
+
+---
+## 4. Screenshots of Key GitHub Features
+
+Include screenshots that demonstrate how you used GitHub to manage your project. For each screenshot, write a short caption explaining what it shows.
+
+> Upload the screenshots to your GitHub repository and reference them here using Markdown image syntax:
+> (you could just simply copy and paste the image into the Assignment.md)
+
+```markdown
+![Caption](path/to/your/image.png)
+```
+
+### A. Milestones and Issues
+![Milestone creation](https://github.com/user-attachments/assets/dbcb5e1e-958f-4b47-9bcf-8dabd891c18c)
+This screenshot shows a milestone I created to track progress on the portfolio site. The linked issues represent different parts of the project like layout setup, About Me section, and contact form.
+- Screenshot showing your milestone(s) and the issues linked to it.
+
+### B. Project Board
+![project board2](https://github.com/user-attachments/assets/44ebbce8-3737-45cb-ae75-b3af364cf0d7)
+
+- Here is my GitHub project board. I used columns like “To Do,” “In Progress,” and “Done” to visually manage the status of each task in the portfolio project.
+
+### C. Branching
+![branches](https://github.com/user-attachments/assets/daf22d9a-f31c-4f11-90f9-3934ce5aea52)
+
+- This screenshot displays the list of branches I created, including 2-add-profile-section-for-arthur-nyota. I used descriptive branch names to keep my Git workflow organized..
+
+### D. Pull Requests
+![pull request 2](https://github.com/user-attachments/assets/b860f38e-08cb-4a79-a348-07fee80feba8)
+
+- Screenshot of a pull request that’s either open or merged and linked to a related issue.
+
+### E. Merge Conflict Resolution
+![image](https://github.com/user-attachments/assets/a0c43e2d-19b1-4d65-ad77-55fd95e9bca9)
+
+- This pull request shows how I merged the feature branch into the main branch Issue No 5. It is also linked to the related issue for the “Project section” of my project.
